@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aviso SYSTEM "E4.dtd">
+
+<aviso>
+<titulo>...</titulo>
+<parrafo>...</parrafo>
+<grafico>...</grafico>
+<parrafo>...</parrafo>
+<grafico>...</grafico>
+</aviso>
+
+<!-- mismo dtd que ejercicio 4 y 5. 
+No era posible validar y hermos añadimos un gráfico para que la lógica persista
+EL DTD  es el mismo que el del ejercicio 4 y 5
+
+<aviso>
+<titulo>...</titulo>
+<parrafo>...</parrafo>
+<grafico>...</grafico>
+<parrafo>...</parrafo>
+</aviso>
+<!ELEMENT aviso (titulo?, (parrafo+, grafico)*)
+-->

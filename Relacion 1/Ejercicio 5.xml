@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aviso SYSTEM "E4.dtd"> <!--usando el mismo DTD que el ejercicio anterior-->
+
+
+
+<aviso>
+</aviso>
+
+
+
+<!-- <!ELEMENT aviso (titulo?, (parrafo+, grafico)*)> EL DTD original
+
+<!ELEMENT aviso (titulo?, (parrafo+, grafico)*)> 
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT parrafo (#PCDATA)>
+<!ELEMENT grafico (#PCDATA)>
+
+Terminando de construir el dtd, valida el xml
+-->

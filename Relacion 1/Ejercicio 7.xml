@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aviso SYSTEM "E4.dtd">
+
+<aviso>
+<titulo>...</titulo>
+</aviso>
+
+<!-- Es de tipo válido. No es preciso modificar nada en relación al DTD dado
+siempre que acabemos de construirlo
+<!ELEMENT aviso (titulo?, (parrafo+, grafico)*)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT parrafo (#PCDATA)>
+<!ELEMENT grafico (#PCDATA)>
+<!ELEMENT aviso (titulo?, (parrafo+, grafico)*)>
+
+El xml debe incluir el elemento raiz, aviso y 
+opcionalmente titulo, en este caso lo incluye y 
+opcionalmente conjuntos de párrafo(1 o ás de uno, y  gráfico)
+-->

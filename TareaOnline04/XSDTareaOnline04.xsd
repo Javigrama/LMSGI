@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="CATALOG">
+    <xs:complexType>
+      <xs:sequence>
+       <xs:element name="CD" maxOccurs="unbounded" type="info"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="info">
+    <xs:sequence>
+      <xs:element name="TITLE" type="xs:string"/>
+      <xs:element name="ARTIST" type="xs:string"/>
+      <xs:element name="COUNTRY" type="xs:string"/>
+      <xs:element name="COMPANY" type="xs:string"/>
+      <xs:element name="PRICE" type="xs:decimal"/>
+      <xs:element name="YEAR" type="xs:gYear"/>
+    </xs:sequence>  
+  </xs:complexType>
+
+</xs:schema>
+
+
+
+
+
+
+<!--<CD>
+<TITLE>Empire Burlesque</TITLE>
+<ARTIST>Bob Dylan</ARTIST>
+<COUNTRY>USA</COUNTRY>
+<COMPANY>Columbia</COMPANY>
+<PRICE>10.90</PRICE>
+<YEAR>1985</YEAR>
+</CD>
+</CATALOG>-->

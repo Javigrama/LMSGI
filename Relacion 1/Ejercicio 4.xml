@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aviso SYSTEM "E4.dtd">
+
+
+<aviso>
+<titulo>...</titulo>
+<parrafo>...</parrafo>
+<grafico>...</grafico>
+<parrafo>...</parrafo>
+<grafico>...</grafico>
+</aviso>
+
+<!-- <!ELEMENT aviso (titulo?, (parrafo+, grafico)*)> EL DTD Original
+se ha terminado de construir 
+<!ELEMENT aviso (titulo?, (parrafo+, grafico)*)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT parrafo (#PCDATA)>
+<!ELEMENT grafico (#PCDATA)>
+y valida el xml original
+
+<aviso>
+<titulo>...</titulo>
+<parrafo>...</parrafo>
+<grafico>...</grafico>
+<parrafo>...</parrafo>
+<grafico>...</grafico>
+</aviso>
+
+los elementos son opcionales -->

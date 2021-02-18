@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aviso SYSTEM "E4.dtd">
+
+<aviso>
+<parrafo>...</parrafo>
+<grafico>...</grafico>
+<parrafo>...</parrafo>
+<parrafo>...</parrafo>
+<grafico>...</grafico>
+</aviso>
+
+<!-- El DTD valida el xml. Es el mismo DTD que el ejercicio 4, 5, 6, 7-->

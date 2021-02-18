@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta SYSTEM "E2.dtd">
+<receta>
+<parrafo>Esto es un párrafo</parrafo>
+<titulo>...</titulo>
+<ingredientes>...</ingredientes>
+<procedimiento>...</procedimiento>
+</receta>
+
+<!-- <!ELEMENT receta (titulo, ingredientes, procedimiento)> DTD original
+El dtd original no validaba el xml por lo que se ha procedido a modificar el dtd
+
+<!ELEMENT receta (parrafo, titulo, ingredientes, procedimiento)>
+<!ELEMENT parrafo (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT ingredientes (#PCDATA)>
+<!ELEMENT procedimiento (#PCDATA)>
+
+Y el DTD modificado para que defina la estructura del xml-->

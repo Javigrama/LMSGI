@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE informe
+[
+<!ELEMENT informe (encabezado, datos)>
+<!ELEMENT encabezado (empresa, titulo, descripcion, fecha)>
+<!ELEMENT empresa (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ATTLIST fecha date CDATA #REQUIRED>
+<!ELEMENT datos (region, region, region)>
+<!ELEMENT region (trimestre, trimestre, trimestre, trimestre)>
+<!ATTLIST region zona ID #REQUIRED>
+<!ELEMENT trimestre (#PCDATA)>
+<!ATTLIST trimestre libros_vendidos CDATA "NO_INFO">
+<!ATTLIST trimestre numero (1|2|3|4) #REQUIRED>
+
+
+
+]>
+<informe>
+    <encabezado>
+      <empresa>Ediciones Aranda</empresa>
+      <titulo>Informe regional de ventas</titulo>
+      <descripcion>Descripción. informe de ventas para las regiones Norte, Centro y Sur</descripcion>
+      <fecha date="DD/MM/YYYY">Fecha del informe:  30/12/2009</fecha>
+    </encabezado>
+
+    <datos>
+      <region zona="Norte">
+          <trimestre numero="1" libros_vendidos="miles">24000</trimestre>
+          <trimestre numero="2" libros_vendidos="miles">38600</trimestre>
+          <trimestre numero="3" libros_vendidos=""></trimestre>
+          <trimestre numero="4" libros_vendidos=""></trimestre>
+      </region>
+      <region zona="Centro">
+          <trimestre numero="1" libros_vendidos=""></trimestre>
+          <trimestre numero="2" libros_vendidos="miles">16080</trimestre>
+          <trimestre numero="3" libros_vendidos="miles">25000</trimestre>
+          <trimestre numero="4" libros_vendidos="miles">29000</trimestre>
+      </region>
+      <region zona="Sur">
+          <trimestre numero="1" libros_vendidos="miles">27000</trimestre>
+          <trimestre numero="2" libros_vendidos="miles">31400</trimestre>
+          <trimestre numero="3" libros_vendidos="miles">40100</trimestre>
+          <trimestre numero="4" libros_vendidos="miles">30000</trimestre>
+      </region>
+    </datos>
+  </informe>
+
+
+
+
+
+
+

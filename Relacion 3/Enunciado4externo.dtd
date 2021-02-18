@@ -1,0 +1,13 @@
+<!ELEMENT informe (encabezado, datos)>
+<!ELEMENT encabezado (empresa, titulo, descripcion, fecha)>
+<!ELEMENT empresa (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ATTLIST fecha date CDATA #REQUIRED>
+<!ELEMENT datos (region, region, region)>
+<!ELEMENT region (trimestre, trimestre, trimestre, trimestre)>
+<!ATTLIST region zona ID #REQUIRED>
+<!ELEMENT trimestre (#PCDATA)>
+<!ATTLIST trimestre libros_vendidos CDATA "NO_INFO">
+<!ATTLIST trimestre numero (1|2|3|4) "1">

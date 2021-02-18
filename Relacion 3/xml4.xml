@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<informe>
+    <encabezado>
+      <empresa>Ediciones Aranda</empresa>
+      <titulo>Informe regional de ventas</titulo>
+      <descripcion>Descripción. informe de ventas para las regiones Norte, Centro y Sur</descripcion>
+      <fecha date="30/12/2009">Fecha del informe: </fecha>
+    </encabezado>
+
+    <datos>
+      <region zona="Norte">
+          <trimestre numero="1" libros_vendidos="24000"></trimestre>
+          <trimestre numero="2" libros_vendidos="38600"></trimestre>
+          <trimestre numero="3" libros_vendidos="NO_INFO"></trimestre>
+          <trimestre numero="4" libros_vendidos="NO_INFO"></trimestre>
+      </region>
+      <region zona="Centro">
+          <trimestre numero="1" libros_vendidos="NO_INFO"></trimestre>
+          <trimestre numero="2" libros_vendidos="16080"></trimestre>
+          <trimestre numero="3" libros_vendidos="25000"></trimestre>
+          <trimestre numero="4" libros_vendidos="29000"></trimestre>
+      </region>
+      <region zona="Sur">
+          <trimestre numero="1" libros_vendidos="27000"></trimestre>
+          <trimestre numero="2" libros_vendidos="31400"></trimestre>
+          <trimestre numero="3" libros_vendidos="40100"></trimestre>
+          <trimestre numero="4" libros_vendidos="30000"></trimestre>
+      </region>
+    </datos>
+  </informe>

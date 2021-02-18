@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta SYSTEM "E3.dtd">
+<receta>
+<ingredientes>...</ingredientes>
+<procedimiento>...</procedimiento>
+</receta>
+
+
+<!-- <!ELEMENT receta (titulo, ingredientes, procedimiento)> Se ha eliminado titulo del DTD original
+para que el xml original pueda ser vallidado
+
+<!ELEMENT receta (ingredientes, procedimiento)>
+<!ELEMENT ingredientes (#PCDATA)>
+<!ELEMENT procedimiento (#PCDATA)>
+
+-->
